@@ -141,39 +141,40 @@
     </section>
 
     <!-- Sección Contacto -->
-    <section id="contacto" class="full-screen-section accent">
+    <section id="contacto" class="full-screen-section accent contacto-container">
+        
         <div class="container">
-            <h2>Contacto</h2>
-            <div class="contact-grid">
-                <form id="contact-form" class="form-content">
-                    <div class="form-group">
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" required>
+            <h2>Contacto</h2>           
+            <div class="contact-options">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
                     </div>
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
+                    <h3>Correo Electrónico</h3>
+                    <p>Respuesta en menos de 24 horas</p>
+                    <a href="mailto:ventas@fixbuscr.com" class="contact-btn">ventas@fixbuscr.com</a>
+                </div>              
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
                     </div>
-                    <div class="form-group">
-                        <label for="empresa">Empresa:</label>
-                        <input type="text" id="empresa" name="empresa">
+                    <h3>Ubicación</h3>
+                    <p>Nuestra oficina principal</p>
+                    <a class="contact-banner">- San José, Santa Ana</a>
+                </div>
+            </div>
+
+            <div class="schedule-section">
+                <h3><i class="far fa-clock"></i> Horario de Atención</h3>
+                <div class="schedule-grid">
+                    <div class="schedule-day">
+                        <span>Lunes - Viernes</span>
+                        <span>7:00 AM - 5:00 PM</span>
+                    </div> 
+                    <div class="schedule-day">
+                        <span>Sábados y Domingos</span>
+                        <span>Cerrado</span>
                     </div>
-                    <div class="form-group">
-                        <label for="mensaje">Mensaje:</label>
-                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-                    </div>
-                    <button type="submit">Enviar</button>
-                </form>
-                <div class="info-content">
-                    <h3>Información de contacto</h3>
-                    <p><i class="fas fa-map-marker-alt"></i>San José, Santa Ana</p>
-                    <!-- <p><i class="fas fa-phone"></i> +1 234 567 890</p> -->
-                    <p><i class="fas fa-envelope"></i> ventas@fixbuscr.com</p>
-                    <!-- <div class="social-icons">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div> -->
                 </div>
             </div>
         </div>
