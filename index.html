@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FixBus</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">
+                <img src="/imgs/Logo FixBus Blanco.png" alt="FixBus Logo" class="logo-img">
+            </a>
+            <div class="menu-container">
+                <button class="menu-toggle" aria-label="Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#quienes-somos">Quiénes somos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Home -->
+    <section id="home" class="full-screen-section hero">
+        <div class="container">
+            <h2>Soluciones tecnológicas a su medida</h2>
+            <p>Expertos en desarrollo y mantenimiento tecnológico</p>
+            <a href="#quienes-somos" class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Sección Quiénes Somos -->
+    <section id="quienes-somos" class="full-screen-section">
+        <div class="container">
+            <h2>Quiénes somos y nuestra trayectoria</h2>
+            <div class="content-grid">
+                <div class="text-content">
+                    <p>FixBus es una empresa líder en soluciones tecnológicas con más de 10 años de experiencia en el mercado. Nuestro equipo de expertos combina conocimiento técnico con enfoque empresarial para ofrecer soluciones personalizadas.</p>
+                    <p>Desde nuestros inicios nos hemos especializado en el desarrollo de software y hardware, creciendo hasta convertirnos en un referente del sector tecnológico con clientes en múltiples industrias.</p>
+                    <p>Nuestra filosofía se basa en la innovación constante, la calidad de nuestros productos y el soporte técnico especializado.</p>
+                </div>
+                <div class="image-content">
+                    <img src="/imgs/banner.jpeg" alt="Equipo FixBus">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section id="servicios" class="full-screen-section dark">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="services-grid">
+                <!-- Tarjeta 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Desarrollo de aplicaciones móviles</h3>
+                    <p>Creación de apps nativas para Android con las últimas tecnologías.</p>
+                </div>
+                
+                <!-- Tarjeta 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Desarrollo de webs</h3>
+                    <p>Diseño y desarrollo de sitios web responsivos, aplicaciones web progresivas e intranets.</p>
+                </div>
+                
+                <!-- Tarjeta 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Infraestructura y redes</h3>
+                    <p>Diseño, implementación y mantenimiento de infraestructura de red empresarial.</p>
+                </div>
+                
+                <!-- Tarjeta 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Electrónica general</h3>
+                    <p>Soluciones electrónicas personalizadas para proyectos industriales y comerciales.</p>
+                </div>
+                
+                <!-- Tarjeta 5 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>Desarrollo de tarjetas electrónicas</h3>
+                    <p>Diseño y fabricación de PCB para aplicaciones específicas.</p>
+                </div>
+                
+                <!-- Tarjeta 6 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Reparación de equipos</h3>
+                    <p>Servicio técnico especializado en hardware y equipos electrónicos.</p>
+                </div>
+                
+                <!-- Tarjeta 7 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Mantenimiento de servidores</h3>
+                    <p>Administración y optimización de servidores físicos.</p>
+                </div>
+                
+                <!-- Tarjeta 8 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Bases de datos</h3>
+                    <p>Diseño, implementación y administración de sistemas de bases de datos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="full-screen-section accent">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contact-grid">
+                <form id="contact-form" class="form-content">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="empresa">Empresa:</label>
+                        <input type="text" id="empresa" name="empresa">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+                <div class="info-content">
+                    <h3>Información de contacto</h3>
+                    <p><i class="fas fa-map-marker-alt"></i>San José, Santa Ana</p>
+                    <!-- <p><i class="fas fa-phone"></i> +1 234 567 890</p> -->
+                    <p><i class="fas fa-envelope"></i> ventas@fixbuscr.com</p>
+                    <!-- <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <a href="#home" class="back-to-top">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+            <p>&copy; 2025 FixBus. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
